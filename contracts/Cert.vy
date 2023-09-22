@@ -12,7 +12,6 @@ event Issued:
     date: String[16]
 
 Certificates: public(HashMap[uint256, Certificate])
-
 @external
 def __init__():
     self.admin = msg.sender
